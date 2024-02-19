@@ -1,0 +1,58 @@
+{
+  "name": "@nunchistudio/helix",
+  "version": "0.17.1",
+  "description": "helix.ts is the TypeScript implementation of helix, for consuming public types on the front-end exposed by micro-services.",
+  "keywords": [
+    "api",
+    "asyncapi",
+    "cloud",
+    "data-plane",
+    "devops",
+    "distributed-systems",
+    "distributed-tracing",
+    "microservices",
+    "openapi",
+    "opentelemetry",
+    "platform-engineering",
+    "rest"
+  ],
+  "homepage": "https://nunchi.studio/helix",
+  "repository": "github:nunchistudio/helix.ts",
+  "bugs": {
+    "url": "https://github.com/nunchistudio/helix.ts/issues",
+    "email": "support@nunchi.studio"
+  },
+  "author": {
+    "name": "Loïc Saint-Roch",
+    "email": "loic@nunchi.studio"
+  },
+  "license": "MIT",
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts"
+    },
+    "./errorstack": {
+      "types": "./dist/errorstack/index.d.ts"
+    },
+    "./event": {
+      "types": "./dist/event/index.d.ts"
+    },
+    "./integration/rest": {
+      "types": "./dist/integration/rest/index.d.ts"
+    }
+  },
+  "packageManager": "npm@10.2.4",
+  "engines": {
+    "node": ">=18"
+  }
+}

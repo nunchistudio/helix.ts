@@ -1,0 +1,17 @@
+{
+  "packages": [
+    {
+      "path": "errorstack"
+    },
+    {
+      "path": "event"
+    }
+  ],
+  "integrations": [
+    {
+      "id": "rest",
+      "name": "REST router",
+      "description": "for consuming REST APIs"
+    }
+  ]
+}
