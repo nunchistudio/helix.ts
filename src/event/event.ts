@@ -44,7 +44,7 @@ import { Subscription } from './event_subscription'
  * - The Elastic Common Schema described at:
  *   https://www.elastic.co/guide/en/ecs/current/ecs-field-reference.html
  */
-export interface Event {
+export type Event = {
   id?: string
   name?: string
   meta?: Record<string, string>

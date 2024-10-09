@@ -1,7 +1,7 @@
 /**
  * Location holds the details about the user's location.
  */
-export interface Location {
+export type Location = {
   city?: string
   country?: string
   region?: string

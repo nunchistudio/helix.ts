@@ -4,7 +4,7 @@ import { Error } from '../../errorstack'
  * Response is the JSON object every HTTP responses of an helix service shall
  * return.
  */
-export interface Response<Metadata, Data> {
+export type Response<Metadata, Data> = {
 
   /**
    * status is the official text of the HTTP status code, in English.

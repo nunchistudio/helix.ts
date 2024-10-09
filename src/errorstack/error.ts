@@ -5,7 +5,7 @@
  *
  * Every errors in helix follow this format.
  */
-export interface Error {
+export type Error = {
   readonly name: string
 
   /**
@@ -24,7 +24,7 @@ export interface Error {
 /**
  * Validation holds some details about a validation failure.
  */
-export interface Validation {
+export type Validation = {
 
   /**
    * message is the cause of the validation failure.

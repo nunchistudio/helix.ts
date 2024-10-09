@@ -6,13 +6,13 @@ import axios from 'axios'
 import { Event } from '@nunchistudio/helix/event'
 import { Response } from '@nunchistudio/helix/integration/rest'
 
-interface metadata {
+type Metadata = {
   event: Event
 }
 
-interface data {
+type Data = {
   // ...
 }
 
-await axios.get<Response<metadata, data>>('/anything')
+await axios.get<Response<Metadata, Data>>('/anything')
 ```

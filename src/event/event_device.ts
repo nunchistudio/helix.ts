@@ -1,7 +1,7 @@
 /**
  * Device holds the details about the user's device.
  */
-export interface Device {
+export type Device = {
   id?: string
   manufacturer?: string
   model?: string
