@@ -1,6 +1,6 @@
 {
   "name": "@nunchistudio/helix",
-  "version": "0.17.1",
+  "version": "0.18.0",
   "description": "helix.ts is the TypeScript implementation of helix, for consuming public types on the front-end exposed by micro-services.",
   "keywords": [
     "api",
@@ -17,7 +17,10 @@
     "rest"
   ],
   "homepage": "https://nunchi.studio/helix",
-  "repository": "github:nunchistudio/helix.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nunchistudio/helix.ts.git"
+  },
   "bugs": {
     "url": "https://github.com/nunchistudio/helix.ts/issues",
     "email": "support@nunchi.studio"
