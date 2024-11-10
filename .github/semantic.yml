@@ -14,3 +14,4 @@ scopes:
   - "event"
   - "errorstack"
   - "rest"
+  - "temporal"
