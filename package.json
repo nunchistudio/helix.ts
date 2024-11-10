@@ -1,6 +1,6 @@
 {
   "name": "@nunchistudio/helix",
-  "version": "0.18.0",
+  "version": "0.19.0",
   "description": "helix.ts is the TypeScript implementation of helix, for consuming public types on the front-end exposed by micro-services.",
   "keywords": [
     "api",
