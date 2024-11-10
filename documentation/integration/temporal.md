@@ -5,7 +5,7 @@ and that can be exposed in a REST API.
 Given a HTTP endpoint returning a HTTP reponse like this:
 ```go
 type CustomResponseMetadata struct {
-	Temporal *temporalrest.Metadata `json:"temporal,omitempty"`
+  Temporal *temporalrest.Metadata `json:"temporal,omitempty"`
 }
 
 metadata := CustomResponseMetadata{
